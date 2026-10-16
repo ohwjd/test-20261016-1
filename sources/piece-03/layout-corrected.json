@@ -1,0 +1,158 @@
+{
+	"note": "Corrected layout boxes, in the page image's pixel space. The measure zones in score.mei are the measure boxes grown by a margin.",
+	"pages": [
+		{
+			"image": "../img/05.jpg",
+			"measures": [
+				{
+					"ulx": 439,
+					"uly": 440,
+					"lrx": 634,
+					"lry": 901
+				},
+				{
+					"ulx": 642,
+					"uly": 443,
+					"lrx": 1149,
+					"lry": 907
+				},
+				{
+					"ulx": 1157,
+					"uly": 443,
+					"lrx": 1662,
+					"lry": 905
+				},
+				{
+					"ulx": 1673,
+					"uly": 442,
+					"lrx": 2211,
+					"lry": 907
+				},
+				{
+					"ulx": 276,
+					"uly": 1011,
+					"lrx": 817,
+					"lry": 1470
+				},
+				{
+					"ulx": 827,
+					"uly": 1013,
+					"lrx": 1315,
+					"lry": 1471
+				},
+				{
+					"ulx": 1326,
+					"uly": 1015,
+					"lrx": 1754,
+					"lry": 1470
+				},
+				{
+					"ulx": 1765,
+					"uly": 1015,
+					"lrx": 2204,
+					"lry": 1471
+				},
+				{
+					"ulx": 273,
+					"uly": 1578,
+					"lrx": 829,
+					"lry": 2022
+				},
+				{
+					"ulx": 839,
+					"uly": 1582,
+					"lrx": 1249,
+					"lry": 2031
+				},
+				{
+					"ulx": 1260,
+					"uly": 1583,
+					"lrx": 1707,
+					"lry": 2030
+				},
+				{
+					"ulx": 1717,
+					"uly": 1586,
+					"lrx": 2200,
+					"lry": 2032
+				}
+			],
+			"staves": [
+				{
+					"ulx": 443,
+					"uly": 444,
+					"lrx": 2209,
+					"lry": 529
+				},
+				{
+					"ulx": 443,
+					"uly": 649,
+					"lrx": 2210,
+					"lry": 731
+				},
+				{
+					"ulx": 438,
+					"uly": 828,
+					"lrx": 2204,
+					"lry": 909
+				},
+				{
+					"ulx": 280,
+					"uly": 1016,
+					"lrx": 2206,
+					"lry": 1095
+				},
+				{
+					"ulx": 272,
+					"uly": 1217,
+					"lrx": 2204,
+					"lry": 1298
+				},
+				{
+					"ulx": 273,
+					"uly": 1392,
+					"lrx": 2200,
+					"lry": 1473
+				},
+				{
+					"ulx": 272,
+					"uly": 1583,
+					"lrx": 2200,
+					"lry": 1664
+				},
+				{
+					"ulx": 270,
+					"uly": 1769,
+					"lrx": 2198,
+					"lry": 1850
+				},
+				{
+					"ulx": 268,
+					"uly": 1948,
+					"lrx": 2200,
+					"lry": 2030
+				}
+			],
+			"grandstaves": [
+				{
+					"ulx": 441,
+					"uly": 649,
+					"lrx": 2210,
+					"lry": 912
+				},
+				{
+					"ulx": 271,
+					"uly": 1217,
+					"lrx": 2201,
+					"lry": 1474
+				},
+				{
+					"ulx": 271,
+					"uly": 1771,
+					"lrx": 2202,
+					"lry": 2030
+				}
+			]
+		}
+	]
+}
