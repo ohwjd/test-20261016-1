@@ -1,0 +1,63 @@
+schema_version: 3
+campaign:
+  name: "test-20261016-1"
+  title: "Test Campaign Pieces areas"
+  description: ""
+  instigator: "38179254"
+  repo_id: 1421983520
+  language: "en"
+  license: "CC-BY-4.0"
+automation:
+  central_repository: "lets-encode/lets-encode"
+  ref: "develop"
+  path: "scripts/coordinator.ts"
+source:
+  kind: "facsimile"
+  images:
+    - "sources/img/01.jpg"
+    - "sources/img/02.jpg"
+    - "sources/img/03.jpg"
+    - "sources/img/04.jpg"
+    - "sources/img/05.jpg"
+  header:
+    title: "Dichterliebe, Op. 48"
+    composer: "Robert Schumann"
+    publisher: "C. F. Peters"
+    date: ""
+  rights_acknowledged: "1"
+pieces:
+  - id: "piece-01"
+    kind: "facsimile"
+    preparation: "omr"
+    path: "sources/piece-01/score.mei"
+    zones:
+      - { surface: 2, ulx: 0, uly: 7, lrx: 2550, lry: 3301 }
+      - { surface: 3, ulx: 0, uly: 0, lrx: 2550, lry: 3301 }
+    header:
+      title: "1. Im wunderschönen Monat Mai"
+      composer: "Robert Schumann"
+  - id: "piece-02"
+    kind: "facsimile"
+    preparation: "omr"
+    path: "sources/piece-02/score.mei"
+    zones:
+      - { surface: 4, ulx: 0, uly: 0, lrx: 2550, lry: 3301 }
+    header:
+      title: "2. Aus meinen Tränen spriessen"
+      composer: "Robert Schumann"
+  - id: "piece-03"
+    kind: "facsimile"
+    preparation: "omr"
+    path: "sources/piece-03/score.mei"
+    zones:
+      - { surface: 5, ulx: 0, uly: 0, lrx: 2550, lry: 2071 }
+    header:
+      title: "Die Rose, die Lilie, die Taube"
+      composer: "Robert Schumann"
+fragmentation:
+  strategy: "by-piece"
+validation:
+  required_validations: 1
+  pass_threshold: 1
+locking:
+  stale_after_minutes: 1440
